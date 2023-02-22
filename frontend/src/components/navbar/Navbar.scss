@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #013914;
+  background-color: #0c0c18;
   color: white;
   transition: 0.5s all ease;
   position: sticky;
@@ -21,12 +21,12 @@
     .logo {
       font-size: 34px;
       font-weight: bold;
-      color: white;
+      color: #f8f4f0;
       cursor: pointer;
 
       .text{}
       .dot {
-        color: aqua;
+        color: #ff1800;
       }
     }
     .links {
@@ -76,8 +76,8 @@
         cursor: pointer;
 
         &:hover{
-          background-color: #1dbf73;
-          border-color: #1dbf73;;
+          background-color: #ff1800;
+          border-color: #ff1800;;
         }
       }
     }
