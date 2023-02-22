@@ -54,7 +54,7 @@ const Navbar = () => {
                   currentUser?.isSeller && (
                     <>
                       <Link className='link' to="/mygigs">Gigs</Link>
-                      <Link to="/add">Add new gig</Link>
+                      <Link className='link' to="/add">Add new gig</Link>
                     </>
                   )}
                   <Link className='link' to="/orders">Orders</Link>
@@ -69,14 +69,14 @@ const Navbar = () => {
         <>
         <hr />
         <div className="menu">
-          <Link className='link menuLink' to="/">Graphic & Design</Link>
-          <Link className='link menuLink' to="/">Video & Animation</Link>
-          <Link className='link menuLink' to="/">Writting & Translation</Link>
-          <Link className='link menuLink' to="/">AI Serivces</Link>
-          <Link className='link menuLink' to="/">Digital Marketing</Link>
-          <Link className='link menuLink' to="/">Music & Video</Link>
-          <Link className='link menuLink' to="/">Programming & Tech</Link>
-          <Link className='link menuLink' to="/">Business</Link>
+          <Link className='link menuLink' to="/">Technology</Link>
+          <Link className='link menuLink' to="/">Finance</Link>
+          <Link className='link menuLink' to="/">Education</Link>
+          <Link className='link menuLink' to="/">Retail</Link>
+          <Link className='link menuLink' to="/">Agriculture</Link>
+          <Link className='link menuLink' to="/">Food</Link>
+          <Link className='link menuLink' to="/">Trades</Link>
+          <Link className='link menuLink' to="/">Government</Link>
           <Link className='link menuLink' to="/">Lifestyle</Link>
         </div>
         </>

@@ -6,7 +6,7 @@ const Featured = () => {
     <div className='featured'>
       <div className="container">
         <div className="left">
-          <h1>Find the right <i>experts</i> for discovery calls.</h1>
+          <h1>Find the right <i>experts</i> for discovery calls</h1>
           <p>We help you quickly find and book <b>verified expert knowledge</b> to conduct discovery calls with and validate your business idea.</p>
           <div className="search">
             <div className="searchInput">
@@ -17,10 +17,10 @@ const Featured = () => {
           </div>
           <div className="popular">
             <span>Popular Categories:</span>
-            <button>Supply Chain</button>
+            <button>Finance</button>
             <button>Ecommerce</button>
             <button>Education</button>
-            <button>Government</button>
+            <button>Product</button>
           </div>
         </div>
         <div className="right">
