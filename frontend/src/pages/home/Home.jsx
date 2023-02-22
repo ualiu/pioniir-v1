@@ -4,7 +4,8 @@ import Featured from '../../components/featured/Featured';
 import TrustedBy from '../../components/trusedBy/TrustedBy';
 import Slide from '../../components/slide/Slide';
 import CatCard from '../../components/catCard/CatCard.jsx';
-import {cards} from "../../data"
+import ProjectCard from '../../components/projectCard/ProjectCard.jsx';
+import {cards, projects} from "../../data"
 
 function Home() {
   return (
@@ -49,8 +50,42 @@ function Home() {
             <div className="item">
               <video src="" controls></video>
             </div>
+            
           </div>
-      </div>  
+      </div>
+      <div className="features dark">
+          <div className="container">
+            <div className="item">
+              <h1>pioniir Business</h1>
+              <h1>A business solution designed for Incubators</h1>
+              <p>Upgrade to a curated experience packed with tools and benefits,
+                dedicated to Incubators & Accelerators.
+              </p>
+              <div className="title">
+                <img src="./img/check.png" alt="" />
+                  Connect to experts with proven real life experience
+              </div>
+              <div className="title">
+                <img src="./img/check.png" alt="" />
+                  Connect to experts with proven real life experience
+              </div>
+              <div className="title">
+                <img src="./img/check.png" alt="" />
+                  Connect to experts with proven real life experience
+              </div>
+              <button>Explore pioniir Business</button>
+            </div>
+            <div className="item">
+              <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/photography.01cf943.svg" alt="" />
+            </div>
+            
+          </div>
+      </div>
+      <Slide slidesToShow={4} arrowsScroll={4}>
+        {projects.map((card) => (
+          <ProjectCard key={card.id} card={card} />
+        ))}
+      </Slide>    
     </div>
   )
 }

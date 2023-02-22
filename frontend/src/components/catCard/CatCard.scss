@@ -13,10 +13,11 @@
   }
 
   .desc {
-    font-weight: 300;
+    font-weight: 500;
     position: absolute;
     top: 15px;
     left: 15px;
+    color: #0c0c18;
   }
 
   .title {
@@ -24,6 +25,8 @@
     top: 40px;
     left: 15px;
     font-size:24px;
-    font-weight: 500;
+    font-weight: 00;
+    color: #0c0c18;
+    text-decoration: 1px underline #ff1800;
   }
 }
