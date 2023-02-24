@@ -76,7 +76,7 @@ function Home() {
               <button>Explore pioniir Business</button>
             </div>
             <div className="item">
-              <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/photography.01cf943.svg" alt="" />
+              <img src="https://cdn.dribbble.com/users/3723395/screenshots/17429363/media/92fe914c4dc18d73deb71bff8df1e158.jpg" alt="" />
             </div>
             
           </div>
