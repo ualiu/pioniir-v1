@@ -7,7 +7,8 @@ const Featured = () => {
       <div className="container">
         <div className="left">
           <h1>Find the right <i>experts</i> for discovery calls</h1>
-          <p>We help you quickly find and book <b>verified expert knowledge</b> to conduct discovery calls with and validate your business idea.</p>
+          <p>(X for Y analogy: <b>pioniir = airbnb for expert knowledge</b> -- marketplace for expert knowldge)</p>
+          <p>We help you quickly find and book <b>verified expert knowledge</b> to conduct discovery calls with and validate your business idea faster.</p>
           <div className="search">
             <div className="searchInput">
               <img src="img/search.png" alt="" />
